@@ -243,7 +243,7 @@ tour.addSteps([
       { text: '愿闻其详', action: tour.next }
     ]
   }, {
-    text: '那就从第一个开始吧<br/><br/>Privacy is a joke 是一个支持查询隐私泄露情况的网站.<br/><br/>它清洗并整理了大量国内泄露数据, 最终包含 14 余条有效数据.<br/><br/>支持关联搜索, 姓名搜索, 模糊搜索等多种搜索方式. 通过切片, 索引, 分表查询, 数据缓存等技术手段, 使单次模糊查询耗时降低至 200 毫秒, 重复查询耗时降低至 10 毫秒.',
+    text: '那就从第一个开始吧<br/><br/>Privacy is a joke 是一个支持查询隐私泄露情况的网站.<br/><br/>它清洗并整理了大量国内泄露数据, 最终包含 14 亿条有效数据.<br/><br/>支持关联搜索, 姓名搜索, 模糊搜索等多种搜索方式. 通过切片, 索引, 分表查询, 数据缓存等技术手段, 使单次模糊查询耗时降低至 200 毫秒, 重复查询耗时降低至 10 毫秒.',
     attachTo: { element: document.getElementById('project1'), on: 'auto' },
     buttons: [{ text: '继续', action: tour.next }]
   }, {
