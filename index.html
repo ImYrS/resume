@@ -37,7 +37,7 @@
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" data-sidebar>
+    <aside class="sidebar" data-sidebar id="sidebar">
 
       <div class="sidebar-info">
 
@@ -142,24 +142,24 @@
         - #NAVBAR
       -->
 
-      <nav class="navbar">
+      <nav class="navbar" id="navbar">
 
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <button class="navbar-link active" data-nav-link>关于</button>
+            <button class="navbar-link active" data-nav-link id="navAbout">关于</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>简历</button>
+            <button class="navbar-link" data-nav-link id="navResume">简历</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>作品</button>
+            <button class="navbar-link" data-nav-link id="navPortfolio">作品</button>
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>联系我</button>
+            <button class="navbar-link" data-nav-link id="navContact">联系我</button>
           </li>
 
         </ul>
@@ -170,7 +170,7 @@
         - #ABOUT
       -->
 
-      <article class="about active" data-page="关于">
+      <article class="about active" data-page="关于" id="about">
 
         <header>
           <h2 class="h2 article-title">关于我</h2>
@@ -190,7 +190,7 @@
           - service
         -->
 
-        <section class="service">
+        <section class="service" id="service">
 
           <h3 class="h3 service-title">我在做什么</h3>
 
@@ -199,7 +199,8 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="https://cdn.imyrs.cn/static/about-me/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="https://cdn.imyrs.cn/static/about-me/images/icon-dev.svg" alt="Web development icon"
+                  width="40">
               </div>
 
               <div class="service-content-box">
@@ -269,7 +270,7 @@
           - testimonials
         -->
 
-        <section class="testimonials">
+        <section class="testimonials" id="testimonials">
 
           <h3 class="h3 testimonials-title">评价</h3>
 
@@ -279,7 +280,8 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="https://cdn.imyrs.cn/static/about-me/images/avatar-1.png" alt="刘杨" width="60" data-testimonials-avatar>
+                  <img src="https://cdn.imyrs.cn/static/about-me/images/avatar-1.png" alt="刘杨" width="60"
+                    data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>刘杨</h4>
@@ -302,7 +304,8 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="https://cdn.imyrs.cn/static/about-me/images/avatar-2.png" alt="Justin Zhang" width="60" data-testimonials-avatar>
+                  <img src="https://cdn.imyrs.cn/static/about-me/images/avatar-2.png" alt="Justin Zhang" width="60"
+                    data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Justin Zhang</h4>
@@ -323,7 +326,8 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="https://cdn.imyrs.cn/static/about-me/images/avatar-4.png" alt="Poplar" width="60" data-testimonials-avatar>
+                  <img src="https://cdn.imyrs.cn/static/about-me/images/avatar-4.png" alt="Poplar" width="60"
+                    data-testimonials-avatar>
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Poplar</h4>
@@ -387,7 +391,7 @@
         - #RESUME
       -->
 
-      <article class="resume" data-page="简历">
+      <article class="resume" data-page="简历" id="resume">
 
         <header>
           <h2 class="h2 article-title">简历</h2>
@@ -567,7 +571,7 @@
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="作品">
+      <article class="portfolio" data-page="作品" id="portfolio">
 
         <header>
           <h2 class="h2 article-title">个人作品集</h2>
@@ -586,7 +590,7 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn id="t">网络开发</button>
+              <button data-filter-btn>网络开发</button>
             </li>
 
             <li class="filter-item">
@@ -631,7 +635,7 @@
 
           <ul class="project-list">
 
-            <li class="project-item" data-filter-item data-category="网络开发" data-category-main="true">
+            <li class="project-item active" data-filter-item data-category="网络开发" data-category-main="true" id="project1">
               <a href="https://privacy-is-a-joke.com" target="_blank">
 
                 <figure class="project-img">
@@ -639,7 +643,8 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="https://cdn.imyrs.cn/static/about-me/images/privacy-is-a-joke.png" alt="privacy is a joke" loading="lazy">
+                  <img src="https://cdn.imyrs.cn/static/about-me/images/privacy-is-a-joke.png" alt="privacy is a joke"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Privacy Is A Joke</h3>
@@ -677,11 +682,12 @@
               </div>
             </li>
 
-            <li class="project-item active" data-filter-item data-category="爬虫" data-category-main="true">
+            <li class="project-item active" data-filter-item data-category="爬虫" data-category-main="true" id="project2">
               <div>
 
                 <figure class="project-img">
-                  <img src="https://cdn.imyrs.cn/static/about-me/images/cainiao-app.png" alt="cainiao app" loading="lazy">
+                  <img src="https://cdn.imyrs.cn/static/about-me/images/cainiao-app.png" alt="cainiao app"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">菜鸟 App 爬虫</h3>
@@ -705,11 +711,12 @@
               </div>
             </li>
 
-            <li class="project-item active" data-filter-item data-category="网络开发" data-category-main="true">
+            <li class="project-item active" data-filter-item data-category="网络开发" data-category-main="true" id="project3">
               <div>
 
                 <figure class="project-img">
-                  <img src="https://cdn.imyrs.cn/static/about-me/images/weibo-analyze.png" alt="weibo analyze" loading="lazy">
+                  <img src="https://cdn.imyrs.cn/static/about-me/images/weibo-analyze.png" alt="weibo analyze"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Weibo Analyze</h3>
@@ -723,7 +730,8 @@
               <div>
 
                 <figure class="project-img">
-                  <img src="https://cdn.imyrs.cn/static/about-me/images/investopedia.png" alt="investopedia" loading="lazy">
+                  <img src="https://cdn.imyrs.cn/static/about-me/images/investopedia.png" alt="investopedia"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Investopedia 爬虫及翻译</h3>
@@ -741,7 +749,8 @@
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="https://cdn.imyrs.cn/static/about-me/images/weibo-monitor-x.png" alt="weibo-monitor-x" loading="lazy">
+                  <img src="https://cdn.imyrs.cn/static/about-me/images/weibo-monitor-x.png" alt="weibo-monitor-x"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">微博监控 X</h3>
@@ -755,7 +764,8 @@
               <div>
 
                 <figure class="project-img">
-                  <img src="https://cdn.imyrs.cn/static/about-me/images/project-7.png" alt="cryptocurrency-wallet-bot" loading="lazy">
+                  <img src="https://cdn.imyrs.cn/static/about-me/images/project-7.png" alt="cryptocurrency-wallet-bot"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Cryptocurrency Wallet Bot</h3>
@@ -839,21 +849,23 @@
               <div>
 
                 <figure class="project-img">
-                  <img src="https://cdn.imyrs.cn/static/about-me/images/weibo-monitor-x.png" alt="weibo monitor" loading="lazy">
+                  <img src="https://cdn.imyrs.cn/static/about-me/images/weibo-monitor-x.png" alt="weibo monitor"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">Weibo Monitor</h3>
 
                 <p class="project-category">微博监控 X 的前作 (无 Web 端)</p>
 
-              </a>
+                </a>
             </li>
 
             <li class="project-item" data-filter-item data-category="爬虫">
               <div>
 
                 <figure class="project-img">
-                  <img src="https://cdn.imyrs.cn/static/about-me/images/earthquake-report.png" alt="earthquake report" loading="lazy">
+                  <img src="https://cdn.imyrs.cn/static/about-me/images/earthquake-report.png" alt="earthquake report"
+                    loading="lazy">
                 </figure>
 
                 <h3 class="project-title">地震速报</h3>
@@ -879,32 +891,33 @@
 
             <li class="project-item" data-filter-item data-category="网络开发">
               <div>
-  
+
                 <figure class="project-img">
-                  <img src="https://cdn.imyrs.cn/static/about-me/images/wechat-pusher.png" alt="wechat pusher" loading="lazy">
+                  <img src="https://cdn.imyrs.cn/static/about-me/images/wechat-pusher.png" alt="wechat pusher"
+                    loading="lazy">
                 </figure>
-  
+
                 <h3 class="project-title">WeChat Pusher</h3>
-  
+
                 <p class="project-category">微信推送, 已集成并应用于各类项目</p>
-  
+
               </div>
             </li>
 
             <li class="project-item" data-filter-item data-category="网络开发">
               <div>
-  
+
                 <figure class="project-img">
                   <img src="https://cdn.imyrs.cn/static/about-me/images/railgun.png" alt="railgun" loading="lazy">
                 </figure>
-  
+
                 <h3 class="project-title">Railgun</h3>
-  
+
                 <p class="project-category">多用户多节点的可商用内网穿透面板</p>
-  
+
               </div>
             </li>
-  
+
           </ul>
 
         </section>
@@ -915,7 +928,7 @@
         - #CONTACT
       -->
 
-      <article class="contact" data-page="联系我">
+      <article class="contact" data-page="联系我" id="contact">
 
         <header>
           <h2 class="h2 article-title">联系我</h2>
@@ -930,10 +943,12 @@
             <div class="input-wrapper">
               <input type="text" name="name" id="name" class="form-input" placeholder="姓名" required data-form-input>
 
-              <input type="email" name="email" id="email" class="form-input" placeholder="邮箱地址" required data-form-input>
+              <input type="email" name="email" id="email" class="form-input" placeholder="邮箱地址" required
+                data-form-input>
             </div>
 
-            <textarea name="message" id="message" class="form-input" placeholder="留言" required data-form-input></textarea>
+            <textarea name="message" id="message" class="form-input" placeholder="留言" required
+              data-form-input></textarea>
 
             <button class="form-btn" type="submit" disabled data-form-btn onsubmit="sendMail();" onclick="sendMail();">
               <ion-icon name="paper-plane"></ion-icon>
@@ -951,10 +966,16 @@
   </main>
 
   <!--
+    - shepherd
+  -->
+  <link rel="stylesheet" href="https://cdn.imyrs.cn/static/about-me/css/shepherd.css" />
+  <script src="https://cdn.imyrs.cn/static/about-me/js/shepherd.min.js"></script>
+
+  <!--
     - custom js link
   -->
-  <!-- <script src="https://cdn.imyrs.cn/static/about-me/js/script.js"></script> -->
-  <script src="./assets/js/script.js"></script>
+  <script src="https://cdn.imyrs.cn/static/about-me/js/script.js"></script>
+
 
   <!--
     - ionicon link
